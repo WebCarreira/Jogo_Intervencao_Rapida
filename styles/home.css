@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../imagens/Fundo\ Tabuleiro\ de\ Manobra\ e\ Tático-01-min.png);
+}
+
+.logotipo {
+    height: 250px;
+    width: 1500px;
+}
+
