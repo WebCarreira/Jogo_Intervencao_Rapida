@@ -17,6 +17,11 @@ body{
     width: auto;
 }
 
+#menu_container{
+    position: relative;
+    left: 50%;
+}
+
 nav > ul{
     display: flex;
     list-style-type: none;
@@ -37,11 +42,34 @@ nav > ul > li > a{
     color: black;
     border: 2px dashed black;
 }
-
-section > div > .tab1{
-    position: absolute;
-    width: 100%;
+/*--------------------------------------------------------------------*/
+.titulo{
+    text-align: center;
+    font-size: 60px;
+    margin: 10px 5px;
 }
 
+#img_destaque{
+    position: relative;
+    width: 900px;
+    height: auto;
+    margin: 0;
+}
 
+#img_destaque > .tab1{
+    position: absolute;
+}
 
+#img_destaque > .tab1 > img{
+    width: 600px;
+    height: auto;
+}
+
+#img_destaque > .tab2{
+    position: absolute;
+    left: 250px;
+}
+#img_destaque > .tab2 > img{
+    width: 600px;
+    height: auto;
+}
