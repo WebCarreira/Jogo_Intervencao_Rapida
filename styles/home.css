@@ -46,6 +46,11 @@ nav > ul > li > a{
     border: 2px dashed black;
 }
 /*------------------------------Título destaque + Imagem destaque--------------------------------------*/
+.img_principal{
+    width: 90%;
+    height: auto;
+    /*border: 1px solid black;*/
+}
 .titulo{
     text-align: center;
     font-size: 60px;
@@ -102,6 +107,9 @@ nav > ul > li > a{
     height: 30px;
 }
 /*-----------------------------------Testemunhos/Comentários---------------------------------------*/
+.opinion{
+    border: 1px solid black;
+}
 section > .comment{
     position: relative;
 }
