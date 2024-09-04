@@ -110,9 +110,9 @@ nav > ul > li > a{
 .opinion{
     border: 1px solid black;
 }
-section > .comment{
+/*section > .comment{
     position: relative;
-}
+}*/
 
 .titulo_comment{
     position: absolute;
