@@ -46,6 +46,7 @@ nav > ul > li > a{
     color: black;
     border: 2px dashed black;
 }
+/*-------------------------------------------------------------------PÁGINA INICIAL---------------------------------------------------------------------------------*/
 /*------------------------------Título destaque + Imagem destaque--------------------------------------*/
 .img_principal{
     display: flex;
@@ -162,4 +163,33 @@ footer li{
 footer li a{
     font-size: 25px;
     text-decoration: none;
+}
+/*---------------------------------------------------------------------------------SOBRE-------------------------------------------------------------------------*/
+
+/*------------------História e Objectivo do Jogo-------------------------------*/
+.historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    font-size: 20px;
+    width: 80%;
+}
+/*----------------------Componentes---------------------------------------------*/
+.componentes_txt{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.componentes{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.img1{
+    width: 30%;
 }
