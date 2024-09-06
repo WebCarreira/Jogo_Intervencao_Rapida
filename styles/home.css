@@ -214,3 +214,8 @@ footer li a{
     font-size: 45px;
     margin-top: 20px;
 }
+/*---------------------------Formulário------------------------------------------------*/
+form p{
+    margin: 10px;
+    padding: 10px;
+}
