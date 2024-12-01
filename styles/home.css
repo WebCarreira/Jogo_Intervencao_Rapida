@@ -311,7 +311,7 @@ form{
 .gallery-content{
     display: none;
     margin-top: 30px;
-}
+} 
 
 .gallery-content img, .gallery-content video{
     width: 100%;
@@ -329,5 +329,3 @@ form{
     width: 100px;
     cursor: pointer;
 }
-
-
