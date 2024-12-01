@@ -25,20 +25,68 @@
         </div>
     </header>
     <!--Galeria-->
+    <!--Carta de apresentação dos albuns-->
     <section>
-        <div>
-            <div>
-                <p>fotos</p>
+        <div class="album">
+            <div class="album-card" onclick="showAlbum('album1')">
+                <img src="imagens/album1_fotos/Fotos-capa.jpg" alt="Album fotos">
+                <h3>Fotos</h3>
             </div>
-            <div>
-                <p>videos</p>
+            <div class="album-card" onclick="showAlbum('album2')">
+                <img src="imagens/album2_videos/Vídeo-capa.jpg" alt="Album videos">
+                <h3>Vídeos</h3>
             </div>
-            <div>
-                <p>Evento 1</p>
+            <div class="album-card" onclick="showAlbum('album3')">
+                <img src="imagens/album3_Jogo_teste/jogo_teste_capa.jpg" alt="Album jogo de teste">
+                <h3>Jogo de Teste</h3>
             </div>
-            <div>
-                <p>Evento 2</p>
+            <div class="album-card" onclick="showAlbum('album4')">
+                <img src="imagens/album4_Apresentação_oficial/apresentação_oficial_capa.jpg" alt="Album apresentação oficial">
+                <h3>Apresentação Oficial</h3>
             </div>
+        </div>
+        <!--Conteúdo dos Álbuns-->
+        <!--Álbum de Fotos-->
+        <div id="album1" class="gallery-content">
+            <span class="close" onclick="hideAlbum()">Fechar Álbum</span>
+            <img src="imagens/album1_fotos/Imagem WhatsApp 2024-11-21 às 16.46.33_e861713a.jpg" alt="Imagem 1">
+            <img src="imagens/album1_fotos/Imagem WhatsApp 2024-11-21 às 17.14.08_6b5b376f.jpg" alt="Imagem 2">
+            <img src="imagens/album1_fotos/Imagem WhatsApp 2024-11-21 às 17.14.09_677f7499.jpg" alt="Imagem 3">
+            <img src="imagens/album1_fotos/Imagem WhatsApp 2024-11-21 às 17.21.37_09e48c64.jpg" alt="Imagem 4">
+            <img src="imagens/album1_fotos/Imagem WhatsApp 2024-11-21 às 17.48.14_b5d729ad.jpg" alt="Imagem 5">
+            <img src="imagens/album1_fotos/Imagem WhatsApp 2024-11-26 às 08.49.39_cccddeb9.jpg" alt="Imagem 6">
+        </div>
+        <!--Álbum de Vídeos-->
+        <div id="album2" class="gallery-content">
+            <span class="close" onclick="hideAlbum()">Fechar Álbum</span>
+            <video controls>
+                <source src="imagens/album2_videos/VID_20240906_072809.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="imagens/album2_videos/VID_20240830_141136.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="imagens/album2_videos/VID_20240902_081412.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!--Álbum Jogo de Teste-->
+        <div id="album3" class="gallery-content">
+            <span class="close" onclick="hideAlbum()">Fechar Álbum</span>
+            <img src="imagens/album3_Jogo_teste/IMG_20240816_203059.jpg" alt="Imagem 1">
+            <img src="imagens/album3_Jogo_teste/IMG_20240816_203104.jpg" alt="Imagem 2">
+            <img src="imagens/album3_Jogo_teste/IMG_20240829_174027.jpg" alt="Imagem 3">
+            <img src="imagens/album3_Jogo_teste/IMG_20240829_174119.jpg" alt="Imagem 4">
+        </div>
+        <!--Álbum Apresentação Oficial-->
+        <div id="album4" class="gallery-content">
+            <span class="close" onclick="hideAlbum()">Fechar Álbum</span>
+            <img src="imagens/album4_Apresentação_oficial/Imagem WhatsApp 2024-11-21 às 17.14.09_677f7499.jpg" alt="Imagem 1">
+            <img src="imagens/album4_Apresentação_oficial/Imagem WhatsApp 2024-11-21 às 17.21.37_09e48c64.jpg" alt="Imagem 2">
+            <img src="imagens/album4_Apresentação_oficial/Imagem WhatsApp 2024-11-21 às 17.48.14_b5d729ad.jpg" alt="Imagem 3">
+            <img src="imagens/album4_Apresentação_oficial/Imagem WhatsApp 2024-11-26 às 08.49.39_cccddeb9.jpg" alt="Imagem 4">
         </div>
     </section>
     <!--Rodapé-->
@@ -50,5 +98,6 @@
         </ul>
         <p>&copy; Copyright Intervenção Rápida 2024</p>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>
